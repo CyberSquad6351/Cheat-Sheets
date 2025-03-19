@@ -13,6 +13,8 @@
 10. [Object-Oriented Programming](#object-oriented-programming)
 11. [Standard Library Highlights](#standard-library-highlights)
 
+---
+
 ## Basic Syntax
 
 ### Comments
@@ -47,6 +49,8 @@ if True:
     if True:
         print("Nested indentation")
 ```
+
+---
 
 ## Data Types
 
@@ -85,6 +89,8 @@ print("{} {}".format(name, 3))  # String formatting: Python 3
 ```python
 x = None  # Represents absence of value
 ```
+
+---
 
 ## Variables and Operators
 
@@ -155,6 +161,8 @@ fruits = ["apple", "banana"]
 print("apple" in fruits)        # True
 print("orange" not in fruits)   # True
 ```
+
+---
 
 ## Control Flow
 
@@ -232,6 +240,8 @@ else:
     print("Loop completed")
 ```
 
+---
+
 ## Functions
 
 ### Defining and Calling Functions
@@ -297,8 +307,10 @@ print(square(5))  # 25
 # Used with built-in functions
 numbers = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x ** 2, numbers))  # [1, 4, 9, 16, 25]
-evens = list(filter(lambda x: x % 2 == a, numbers))  # [2, 4]
+evens = list(filter(lambda x: x % 2 == 0, numbers))  # [2, 4]
 ```
+
+---
 
 ## Data Structures
 
@@ -405,6 +417,8 @@ print(a ^ b)  # Symmetric difference: {1, 2, 5, 6}
 even_squares = {x**2 for x in range(10) if x % 2 == 0}
 ```
 
+---
+
 ## File Operations
 
 ### Reading Files
@@ -465,6 +479,8 @@ data = {"name": "Alice", "age": 30}
 with open("output.json", "w") as file:
     json.dump(data, file, indent=4)  # Write Python object as JSON
 ```
+
+---
 
 ## Exception Handling
 
@@ -530,6 +546,8 @@ except CustomError as error:
     print(error)
 ```
 
+---
+
 ## Modules and Packages
 
 ### Importing Modules
@@ -579,6 +597,8 @@ import my_package.module1
 from my_package import module2
 from my_package.module1 import function1
 ```
+
+---
 
 ## Object-Oriented Programming
 
@@ -701,6 +721,8 @@ print(animal_sound(dog))  # Woof!
 print(animal_sound(cat))  # Meow!
 ```
 
+---
+
 ## Standard Library Highlights
 
 ### Math Operations
@@ -822,4 +844,27 @@ parsed_data = json.loads(json_str)
 print(parsed_data["name"])  # Alice
 ```
 
-This cheat sheet provides a comprehensive overview of Python 3's core features and common libraries. Use it as a quick reference for syntax and functionality as you develop your Python applications.
+---
+
+*This cheat sheet provides a comprehensive overview of Python 3's core features and common libraries. Use it as a quick reference for syntax and functionality as you develop your Python applications.*
+
+---
+## 📄 Website
+[Cyber_Squad6351](https://cybersquad6351.netlify.app/) 
+
+## 📄 Landing Page
+[Cyber_Squad6351](https://cybersquad6351hub.netlify.app/) 
+
+## 📄 Instagram
+[Cyber_Squad6351](https://www.instagram.com/cyber__squad6351) 
+
+## 📌 Pinterest
+[Cyber_Squad6351](https://www.pinterest.com/Cyber_Squad6351/)
+
+## 📩 Contact
+📧 Email: mishraaditya.skm14@gmail.com
+
+---
+© All Copyright Reserved Cyber_Squad6351 2025
+
+
